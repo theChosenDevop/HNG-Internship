@@ -1,17 +1,17 @@
 {
   "name": "stage0ne",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hng task",
   "main": "app.js",
   "engines": {
-    "node": "14.x"
-  }
+    "node": "14.x",
+  },
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "keywords": [],
-  "author": "",
+  "author": "theChosenDevop",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
