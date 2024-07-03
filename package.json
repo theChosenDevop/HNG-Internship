@@ -2,20 +2,20 @@
   "name": "stage0ne",
   "version": "1.0.0",
   "description": "Hng task",
-  "main": "app.js",
+  "main": "public/api/app.js",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node public/api/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script specified\""
   },
   "keywords": [],
   "author": "theChosenDevop",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
-    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongodb": "^6.8.0"

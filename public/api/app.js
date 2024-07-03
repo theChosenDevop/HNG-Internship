@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const axios = require("axios");
 require("dotenv").config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 const key = process.env.API_KEY;
 
 app.set("trust proxy", true);
@@ -37,3 +37,5 @@ app.listen(port, () => {
 
 // Base URL: http://api.weatherapi.com/v1
 // /ip.json or /ip.xml
+
+module.exports = app;
