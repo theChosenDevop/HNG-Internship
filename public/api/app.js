@@ -23,7 +23,7 @@ app.get("/api/hello", async (req, res) => {
     res.json({
       client_ip: ip,
       location: country,
-      greeting: `Hello, ${visitor}!, the temperature is ${temp} in ${country}`,
+      greeting: `Hello, ${visitor}!, the temperature is ${temp} Celcius in ${country}`,
     });
   } catch (error) {
     console.error("Error making GET request:", error);
